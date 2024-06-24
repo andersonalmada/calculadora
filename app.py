@@ -48,10 +48,10 @@ def divide(param1, param2):
 def list_operations():
     operations = {
         "operations": [
-            {"name": "Soma", "path": "/operation/soma/<param1>/<param2>", "method": "POST"},
-            {"name": "Subtracao", "path": "/operation/subtracao/<param1>/<param2>", "method": "POST"},
-            {"name": "Multiplicacao", "path": "/operation/multiplicacao/<param1>/<param2>", "method": "POST"},
-            {"name": "Divisao", "path": "/operation/divisao/<param1>/<param2>", "method": "POST"},
+            {"name": "Soma", "path": "/operation/soma/param1/param2", "method": "POST"},
+            {"name": "Subtracao", "path": "/operation/subtracao/param1/param2", "method": "POST"},
+            {"name": "Multiplicacao", "path": "/operation/multiplicacao/param1/param2", "method": "POST"},
+            {"name": "Divisao", "path": "/operation/divisao/param1/param2", "method": "POST"},
         ]
     }
     return jsonify(operations)
